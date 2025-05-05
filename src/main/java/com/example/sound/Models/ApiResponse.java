@@ -11,7 +11,7 @@ public class ApiResponse {
 	        this.errorType = errorType;
 	    }
 
-	    // Getters e Setters
+	   
 	    public String getStatus() {
 	        return status;
 	    }

@@ -21,7 +21,7 @@ import com.example.sound.Services.SpotifyService;
 
 @RestController
 @RequestMapping("/api/musica")
-@CrossOrigin(origins = "https://681827d8128f2b4f82a22c60--soundletter.netlify.app/")  
+@CrossOrigin(origins = "https://soundletter.netlify.app/")  
 public class EnvioMusicaController {
 	 @Autowired
 	 private EmailService emailService;

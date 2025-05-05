@@ -20,7 +20,7 @@ public class ThymeleafConfig {
         resolver.setSuffix(".html");
         resolver.setTemplateMode(TemplateMode.HTML);
         resolver.setCharacterEncoding("UTF-8");
-        resolver.setCacheable(false); // Desative em desenvolvimento
+        resolver.setCacheable(false); 
         return resolver;
     }
 }
