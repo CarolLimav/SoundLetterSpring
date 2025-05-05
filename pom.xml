@@ -90,6 +90,10 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
+                         <configuration>
+            <!-- Adicionando classifier para evitar o erro -->
+            <classifier>standalone</classifier>
+          </configuration>
                     </execution>
                 </executions>
             </plugin>
